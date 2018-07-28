@@ -1,0 +1,33 @@
+.home {
+  background-image: url("../Image/background.jpg");
+  background-repeat: none;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  position: fixed;
+  z-index: -1;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.header-home{
+    padding-bottom: 5px
+}
+.home-content {
+    transform: rotate(-20deg);
+    margin-top: 200px;
+    margin-left: 190px;
+}
+.pic{
+    width: 270px;
+    transform: rotate(-20deg);
+    margin-top:60px;
+    margin-left:320px;
+}
+/* .profile-pic{
+    width:300px;
+} */

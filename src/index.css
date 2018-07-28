@@ -1,5 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+}
+.header{
+  font-size: 64px;
+  font-family: 'Lato', sans-serif;
+  color: #193441;
+  font-weight: bold;
+}
+.sub-header{
+  font-size: 32px;
+  font-family: Helvetica, sans-serif;
+  color: #3E606F;
+  font-weight: lighter;
+}
+.contents{
+  font-size: 16px;
+  font-family: Helvetica, sans-serif;
+  line-height: 150%;
+  color: black;
 }
