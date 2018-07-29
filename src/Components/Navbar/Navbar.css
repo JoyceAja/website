@@ -15,7 +15,7 @@ a:hover, a:focus{
     color: #C67D8A;
 }
 
-ul{
+nav ul{
     display: flex;
     margin: 0;
     padding: 0;
@@ -25,7 +25,7 @@ nav ul li{
     list-style: none;
 }
 
-ul li a{
+nav ul li a{
     line-height: 80px;
     color:#193441;
     padding:5px 25px;
