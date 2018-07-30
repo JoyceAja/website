@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
-body {
+/* body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+} */
+body{
+  font-family: Helvetica, sans-serif;
 }
 .header{
   font-size: 64px;
@@ -12,14 +15,21 @@ body {
   font-weight: bold;
 }
 .sub-header{
-  font-size: 32px;
-  font-family: Helvetica, sans-serif;
+  font-size: 32px; 
   color: #3E606F;
   font-weight: lighter;
+}
+.sub-title{
+  padding-top: 30px;
+  font-size: 48px;
+  color: #3E606F;
 }
 .contents{
   font-size: 16px;
   font-family: Helvetica, sans-serif;
   line-height: 150%;
   color: black;
+}
+.bio{
+  padding: 20px 200px;
 }

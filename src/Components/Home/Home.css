@@ -1,4 +1,8 @@
-.home {
+
+.home{
+    height: 100vh;
+}
+.home-container {
   background-image: url("../Image/background.jpg");
   background-repeat: none;
   -webkit-background-size: cover;

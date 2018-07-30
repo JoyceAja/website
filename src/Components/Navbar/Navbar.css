@@ -1,6 +1,9 @@
 .nav{
     height:80px;
     float:right;
+    /* position: -webkit-sticky;
+    position: sticky;
+    top:0; */
 }
 
 nav a{
@@ -33,3 +36,11 @@ nav ul li a{
     text-transform: uppercase;
     transition: .5s;
 }
+/* .fixed{
+    position:fixed;
+    top:0;
+    width:100%
+}
+.fixed + .content {
+    padding-top: 80px;
+  } */
