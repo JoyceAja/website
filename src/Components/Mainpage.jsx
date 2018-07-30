@@ -5,6 +5,7 @@ import Navdot from './Navdot/Dots.jsx';
 
 import Home from './Home/Home';
 import About from './About/About';
+import Contact from './Contact/Contact';
 
 export default class Mainpage extends Component{
     // handleScroll = () =>{
@@ -17,6 +18,7 @@ export default class Mainpage extends Component{
                 <Home />
                 <Navdot />
                 <About />
+                <Contact />
             </div>
         )
     }

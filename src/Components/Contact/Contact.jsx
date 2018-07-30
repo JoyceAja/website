@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 
+import './Contact.css'
 export default class Contact extends Component{
     constructor(){
         super()
@@ -24,7 +25,8 @@ export default class Contact extends Component{
     render(){
         const {handleInput, handleSubmit} = this
         return(
-            <div>
+            <div className="contact">
+                <div className="sub-header">Contact</div>
                 <form onSubmit={handleSubmit}>
                 <input
                 type ="text"
@@ -35,14 +37,19 @@ export default class Contact extends Component{
                 <input
                 type ="text"
                 name="email"
-                placeholder="email"
+                placeholder="Email"
+                onInput={handleInput} />
+
+                <textarea
+                name="message"
+                placeholder="Message"
+                cols="200"
+                rows="4"
                 onInput={handleInput} />
 
                 <input
-                type ="text"
-                name="message"
-                placeholder="message"
-                onInput={handleInput} />
+                type="submit"
+                value="Submit" />
                 </form>
             </div>
         )
