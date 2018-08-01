@@ -1,0 +1,15 @@
+.project-header{
+    height:30vh;
+    background-image: url('../Image/keyboard.jpg');
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.project{
+    color:white;
+    padding-top: 40px;
+}
