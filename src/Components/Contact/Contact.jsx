@@ -31,18 +31,21 @@ export default class Contact extends Component{
                 <input
                 type ="text"
                 name="name"
-                placeholder="Name"
+                placeholder="Name*"
+                required
                 onInput={handleInput} />
 
                 <input
                 type ="text"
                 name="email"
-                placeholder="Email"
+                placeholder="Email*"
+                required
                 onInput={handleInput} />
 
                 <textarea
                 name="message"
-                placeholder="Message"
+                placeholder="Message*"
+                required
                 cols="200"
                 rows="4"
                 onInput={handleInput} />

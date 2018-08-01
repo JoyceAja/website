@@ -22,13 +22,13 @@
     padding-bottom: 5px
 }
 .home-content {
-    transform: rotate(-20deg);
+    transform: rotate(-21deg);
     margin-top: 200px;
     margin-left: 190px;
 }
 .pic{
     width: 270px;
-    transform: rotate(-20deg);
+    transform: rotate(-21deg);
     margin-top:60px;
     margin-left:320px;
 }
