@@ -5,7 +5,7 @@ export default class Header extends Component{
     render(){
         return(
             <div className="project-header">
-                <div className="header project">Project</div>
+                <div className="header project">Projects</div>
             </div>
         )
     }
