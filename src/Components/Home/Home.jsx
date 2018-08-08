@@ -9,7 +9,7 @@ export default class Home extends Component {
 
   render() {
     return (
-      <div className="home">
+      <section className="home">
       <div className="home-container">
         <div className="home-content">
         <div className="header header-home">Joyce Ajagbe</div>
@@ -21,7 +21,7 @@ export default class Home extends Component {
         </div>
 
       </div>
-      </div>
+      </section>
     );
   }
 }

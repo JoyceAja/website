@@ -1,9 +1,8 @@
 .nav{
     height:80px;
     float:right;
-    /* position: -webkit-sticky;
-    position: sticky;
-    top:0; */
+    /* margin-left: auto;
+    z-index: -1; */
 }
 
 nav a{

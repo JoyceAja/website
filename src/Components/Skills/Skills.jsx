@@ -12,7 +12,7 @@ import "./Skills.css"
 export default class Skills extends Component{
     render(){
         return(
-            <div className="skills">
+            <section className="skills">
                 <div className="sub-title">Skills</div>
                 <div className="skills-content">
                     <img className="react" src={react_logo} alt="react" />
@@ -23,7 +23,7 @@ export default class Skills extends Component{
                     <img src={html_logo} alt="html"/>
                     <img src={css_logo} alt="css"/>
                 </div>
-            </div>
+            </section>
         )
     }
 }

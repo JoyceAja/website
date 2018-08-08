@@ -26,7 +26,10 @@ export default class Contact extends Component{
         const {handleInput, handleSubmit} = this
         return(
             <div className="contact">
-                <div className="sub-title">Contact</div>
+                <div className="contact-left left">
+                    <div className="sub-title">Contact</div>
+                </div>
+                <div className="right">
                 <form onSubmit={handleSubmit}>
                 <input
                 type ="text"
@@ -54,6 +57,7 @@ export default class Contact extends Component{
                 type="submit"
                 value="Submit" />
                 </form>
+                </div>
             </div>
         )
     }

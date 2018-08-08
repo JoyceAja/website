@@ -30,3 +30,13 @@ body {
 .bio{
   padding: 20px 200px;
 }
+.left{
+  position: absolute;
+  z-index: 1;
+  width:50%;
+}
+.right{
+  width:50%;
+  margin-left: auto;
+  height:100vh;
+}

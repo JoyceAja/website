@@ -3,7 +3,8 @@ import "./Project.css";
 import Gameon from "../Image/gameon.png";
 import Duro from "../Image/Duro.png";
 import Youth from "../Image/youth-con.png";
-import { Carousel } from "react-bootstrap";
+
+import ProjectHeader from './Project_Header';
 
 export default class Projects extends Component {
   constructor() {
@@ -26,23 +27,19 @@ export default class Projects extends Component {
     const { index, direction } = this.state;
 
     return (
-      <div>
-      <Carousel className="projects">
-        <Carousel.Item>
+      <section className="projects">
+        <ProjectHeader />
+        <div className="project-right right">
           <div className="project-container">
           <img className = 'project-img center-block'alt="500x500" src={Duro} />
             <h3 className="project-name">First slide label</h3>
             <p className="project-description">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
             </div>
-        </Carousel.Item>
-        <Carousel.Item>
           <div className="project-container">
           <img className = 'project-img center-block'alt="500x500" src={Gameon} />
             <h3 className="project-name">Second slide label</h3>
             <p className="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
-        </Carousel.Item>
-        <Carousel.Item>
           <div className="project-container">
           <img className = 'project-img center-block'alt="500x500" src={Youth} />
             <h3 className="project-name">Third slide label</h3>
@@ -50,9 +47,8 @@ export default class Projects extends Component {
               Praesent commodo cursus magna, vel scelerisque nisl consectetur.
             </p>
             </div>
-        </Carousel.Item>
-      </Carousel>
-      </div>
+            </div>
+      </section>
     );
   }
 

@@ -1,40 +1,54 @@
+.project-right{
+  overflow: scroll;
+}
 .project-header{
-    height:30vh;
+    height:100vh;
     background-image: url('../Image/keyboard.jpg');
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-attachment: fixed;
+    /* background-color: white;
+    color:black; */
+    /* background-attachment: fixed; */
 }
-
+/* .header.project{
+  color:black;
+} */
 .project{
     color:white;
     padding-top: 40px;
+    position: relative;
 }
 
 .projects {
-    height: 90vh;
+    /* height: 90vh; */
     background-color:white;
     color:white;
-    padding-top:40px;
+    /* padding-top:40px; */
+    position:relative;
+    /* overflow: hidden; */
   }
+.project-container{
+  height:100vh;
+  position: relative;
+}
 .project-img{
   width:600px;
-  height: 400px;
+  height: auto;
 }
 .project-name, .project-description{
   color: black
 }
 
-.project-container{
+/* .project-container{
   border: 2px solid black;
   width:630px;
   margin-left:auto;
   margin-right:auto;
   padding: 5px;
-}
+} */
 
 a.carousel-control.left, a.carousel-control.right{
   background-image: none !important
