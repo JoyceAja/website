@@ -13,7 +13,7 @@ export default class Home extends Component {
       <div className="home-container">
         <div className="home-content">
         <div className="header header-home">Joyce Ajagbe</div>
-        <div className="sub-header ">Full-Stack Developer</div>
+        <div className="sub-header ">Software Engineer</div>
         </div>
 
         <div className="profile-pic">

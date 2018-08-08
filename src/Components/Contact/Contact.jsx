@@ -26,7 +26,7 @@ export default class Contact extends Component{
         const {handleInput, handleSubmit} = this
         return(
             <div className="contact">
-                <div className="sub-header">Contact</div>
+                <div className="sub-title">Contact</div>
                 <form onSubmit={handleSubmit}>
                 <input
                 type ="text"

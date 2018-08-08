@@ -1,0 +1,21 @@
+.skills{
+    height: 50vh;
+    background-color: #eeeeee;
+}
+.skills-content{
+    margin-top: 30px
+}
+
+.skills-content img{
+    width: 100px;
+    height: 100px;
+    margin-left:30px;
+
+}
+img.react{
+    width: 150px;
+}
+
+img.left-margin{
+    margin:0px;
+}
