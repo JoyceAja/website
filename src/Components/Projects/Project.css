@@ -1,38 +1,35 @@
 .project-right{
-  overflow: scroll;
+  overflow-y: scroll;
+  top:0;
+  scroll-behavior: smooth;
 }
 .project-header{
     height:100vh;
-    background-image: url('../Image/keyboard.jpg');
+    /* background-image: url('../Image/keyboard.jpg');
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
-    /* background-color: white;
-    color:black; */
-    /* background-attachment: fixed; */
+    background-size: cover; */
+    /* margin-top:20px; */
+    background-color: white;
+    color:black;
+    background-attachment: fixed;
 }
-/* .header.project{
-  color:black;
-} */
 .project{
-    color:white;
     padding-top: 40px;
     position: relative;
 }
 
 .projects {
-    /* height: 90vh; */
-    background-color:white;
+    background-color:#F0F0F0;
     color:white;
-    /* padding-top:40px; */
     position:relative;
-    /* overflow: hidden; */
   }
 .project-container{
   height:100vh;
   position: relative;
+  box-shadow: inset 2px 1px lightgrey;
 }
 .project-img{
   width:600px;
@@ -40,6 +37,27 @@
 }
 .project-name, .project-description{
   color: black
+}
+.project1{
+  background-image: url('../Image/football.png');
+  background-position: center;
+}
+.project2{
+  background-image: url('../Image/Duro.png');
+  background-position: left;
+}
+.project3{
+  background-image: url('../Image/youth-con.png');
+  background-position: left;
+}
+
+.project1, .project2, .project3{
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* background-position: left; */
 }
 
 /* .project-container{
@@ -50,25 +68,7 @@
   padding: 5px;
 } */
 
-a.carousel-control.left, a.carousel-control.right{
-  background-image: none !important
-}
 
-span.glyphicon.glyphicon-chevron-left,span.glyphicon.glyphicon-chevron-right{
-  background-color: blue;
-  border-radius: 25px;
-  width:40px;
-  height:40px;
-  padding: 1px;
-}
-
-span.glyphicon.glyphicon-chevron-left{
-  margin-left: 100px;
-}
-
-span.glyphicon.glyphicon-chevron-right{
-  margin-right:100px;
-}
   /*.project-slide{
     display: flex;
     justify-content: center;

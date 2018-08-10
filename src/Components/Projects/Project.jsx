@@ -30,22 +30,22 @@ export default class Projects extends Component {
       <section className="projects">
         <ProjectHeader />
         <div className="project-right right">
-          <div className="project-container">
-          <img className = 'project-img center-block'alt="500x500" src={Duro} />
-            <h3 className="project-name">First slide label</h3>
-            <p className="project-description">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <div className="project-container project1">
+          {/* <img className = 'project-img center-block'alt="500x500" src={Duro} /> */}
+            {/* <h3 className="project-name">First slide label</h3>
+            <p className="project-description">Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
             </div>
-          <div className="project-container">
-          <img className = 'project-img center-block'alt="500x500" src={Gameon} />
-            <h3 className="project-name">Second slide label</h3>
-            <p className="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <div className="project-container project2">
+          {/* <img className = 'project-img center-block'alt="500x500" src={Gameon} /> */}
+            {/* <h3 className="project-name">Second slide label</h3>
+            <p className="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
             </div>
-          <div className="project-container">
-          <img className = 'project-img center-block'alt="500x500" src={Youth} />
-            <h3 className="project-name">Third slide label</h3>
+          <div className="project-container project3">
+          {/* <img className = 'project-img center-block'alt="500x500" src={Youth} /> */}
+            {/* <h3 className="project-name">Third slide label</h3>
             <p className="project-description">
               Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
+            </p> */}
             </div>
             </div>
       </section>
