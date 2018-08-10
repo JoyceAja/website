@@ -1,5 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
+@font-face {
+  font-family: Moon-Bold;
+  src: url(Moon2.0-Bold.otf);
+}
+@font-face {
+  font-family: Moon-Regular;
+  src: url(Moon2.0-Regular.otf);
+}
+@font-face {
+  font-family: Moon-Light;
+  src: url(Moon2.0-Light.otf);
+}
+@font-face {
+  font-family: PoiretOne;
+  src: url(PoiretOne-Regular.ttf);
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -7,18 +24,21 @@ body {
 }
 .header{
   font-size: 64px;
-  font-family: 'Lato', sans-serif;
+  font-family: Moon-light;
   color: #193441;
   font-weight: bold;
 }
 .sub-header{
-  font-size: 32px; 
+  font-family: PoiretOne;
+  font-size: 40px; 
   color: #3E606F;
-  font-weight: lighter;
+  font-weight: bolder;
+  /* font-style: italic; */
 }
 .sub-title{
+  font-family: Moon-light;
   padding-top: 60px;
-  font-size: 48px;
+  font-size: 64px;
   color: #3E606F;
 }
 .contents{
@@ -38,5 +58,5 @@ body {
 .right{
   width:50%;
   margin-left: auto;
-  height:100vh;
+  height:90vh;
 }

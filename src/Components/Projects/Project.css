@@ -4,7 +4,7 @@
   scroll-behavior: smooth;
 }
 .project-header{
-    height:100vh;
+    height:90vh;
     /* background-image: url('../Image/keyboard.jpg');
     background-repeat: none;
     -webkit-background-size: cover;
@@ -15,9 +15,11 @@
     background-color: white;
     color:black;
     background-attachment: fixed;
+    /* vertical-align: middle; */
+    line-height: 90vh;
 }
 .project{
-    padding-top: 40px;
+    /* padding-top: 40px; */
     position: relative;
 }
 
@@ -27,7 +29,7 @@
     position:relative;
   }
 .project-container{
-  height:100vh;
+  height:90vh;
   position: relative;
   box-shadow: inset 2px 1px lightgrey;
 }
