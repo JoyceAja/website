@@ -66,11 +66,22 @@
 .none{
   visibility: hidden;
 }
-.project::after{
+/* .project::after{
   height: 90vh;
   width: 50%;
   position: absolute;
   top: 0; bottom: 0; left: 0; right: 0;
   opacity: 0.5;
   z-index: -1;
+} */
+.back{
+  height: 90vh;
+  background-color: rgba(0, 0,0, 0.7);
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+.box{
+  position: absolute;
+  z-index: 2;
 }

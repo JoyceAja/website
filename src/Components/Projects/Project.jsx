@@ -49,11 +49,11 @@ export default class Projects extends Component {
         <ProjectHeader />
         <div className="project-right right">
           <div
-          className={image1? "project-container project1 op": "project-container project1 no"}
+          className="project-container project1 op"
             onClick={this.handleClickProject1}
           >
-          <div ></div>
-            <div className={image1 ? "show" : "none"}>
+          <div className={image1? "back show": "none"}></div>
+            <div className={image1 ? "show box" : "none"}>
               <div>Game on</div>
               <div>
                 A pick up gaming web applications with gamified point reward
