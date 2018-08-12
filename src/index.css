@@ -57,7 +57,7 @@ body {
 }
 .right{
   width:50%;
-  margin-left: auto;
+  margin: auto 0 0 auto;
   height:90vh;
 }
 .fixed{

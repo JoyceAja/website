@@ -4,7 +4,7 @@ import Gameon from "../Image/gameon.png";
 import Duro from "../Image/Duro.png";
 import Youth from "../Image/youth-con.png";
 
-import ProjectHeader from './Project_Header';
+import ProjectHeader from "./Project_Header";
 
 export default class Projects extends Component {
   constructor() {
@@ -12,7 +12,10 @@ export default class Projects extends Component {
 
     this.state = {
       index: 0,
-      direction: null
+      direction: null,
+      image1: false,
+      image2: false,
+      image3: false
     };
   }
   handleSelect = (selectedIndex, e) => {
@@ -22,32 +25,61 @@ export default class Projects extends Component {
       direction: e.direction
     });
   };
+  handleClickProject1 = () => {
+    this.setState({
+      image1: !this.state.image1
+    });
+  };
+  handleClickProject2 = () => {
+    this.setState({
+      image2: !this.state.image2
+    });
+  };
+  handleClickProject3 = () => {
+    this.setState({
+      image3: !this.state.image3
+    });
+  };
 
   render() {
-    const { index, direction } = this.state;
+    const { index, direction, image1,image2, image3 } = this.state;
 
     return (
       <section className="projects">
         <ProjectHeader />
         <div className="project-right right">
-          <div className="project-container project1">
-          {/* <img className = 'project-img center-block'alt="500x500" src={Duro} /> */}
-            {/* <h3 className="project-name">First slide label</h3>
-            <p className="project-description">Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
+          <div
+          className={image1? "project-container project1 op": "project-container project1 no"}
+            onClick={this.handleClickProject1}
+          >
+          <div ></div>
+            <div className={image1 ? "show" : "none"}>
+              <div>Game on</div>
+              <div>
+                A pick up gaming web applications with gamified point reward
+                system to encourge friendly competition between friends
+              </div>
             </div>
-          <div className="project-container project2">
-          {/* <img className = 'project-img center-block'alt="500x500" src={Gameon} /> */}
-            {/* <h3 className="project-name">Second slide label</h3>
-            <p className="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
+          </div>
+          <div className="project-container project2" onClick={this.handleClickProject2}>
+            <div className={image2? "show" : "none"}>
+              <div>Game on</div>
+              <div>
+                A pick up gaming web applications with gamified point reward
+                system to encourge friendly competition between friends
+              </div>
             </div>
-          <div className="project-container project3">
-          {/* <img className = 'project-img center-block'alt="500x500" src={Youth} /> */}
-            {/* <h3 className="project-name">Third slide label</h3>
-            <p className="project-description">
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p> */}
+          </div>
+          <div className="project-container project3" onClick ={this.handleClickProject3}>
+            <div className={image3 ?"show" : "none"}>
+              <div>Game on</div>
+              <div>
+                A pick up gaming web applications with gamified point reward
+                system to encourge friendly competition between friends
+              </div>
             </div>
-            </div>
+          </div>
+        </div>
       </section>
     );
   }

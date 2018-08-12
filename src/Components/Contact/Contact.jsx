@@ -24,6 +24,7 @@ export default class Contact extends Component {
   render() {
     const { handleInput, handleSubmit } = this;
     return (
+      <div className="contact-container">
       <div className="contact">
         <div className="contact-left left">
           <Footer />
@@ -63,6 +64,7 @@ export default class Contact extends Component {
           </form>
         </div>
         {/* </div> */}
+      </div>
       </div>
     );
   }
