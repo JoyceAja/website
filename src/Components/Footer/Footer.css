@@ -1,8 +1,9 @@
 .footer{
     /* height: 80vh; */
-    background-color: white;
+    /* background-color: white; */
     display: flex;
-    flex-direction: column;
-    position: fixed;
-    z-index: 500;
+    justify-content: space-around;
+    /* flex-direction: column; */
+    /* position: fixed; */
+    /* z-index: 500; */
 }

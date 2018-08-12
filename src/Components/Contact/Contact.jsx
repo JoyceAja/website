@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import Footer from '../Footer/Footer';
 
 import './Contact.css'
 export default class Contact extends Component{
@@ -28,6 +29,7 @@ export default class Contact extends Component{
             <div className="contact">
                 <div className="contact-left left">
                     <div className="sub-title">Contact</div>
+                    {/* <Footer /> */}
                 </div>
                 <div className="right">
                 <form onSubmit={handleSubmit}>
@@ -57,6 +59,7 @@ export default class Contact extends Component{
                 type="submit"
                 value="Submit" />
                 </form>
+                <Footer />
                 </div>
             </div>
         )
