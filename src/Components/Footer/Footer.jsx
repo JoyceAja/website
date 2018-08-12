@@ -1,16 +1,24 @@
-import React, {Component} from "react";
-import './Footer.css';
+import React, { Component } from "react";
+import "./Footer.css";
 
-
-export default class Footer extends Component{
-    render(){
-        return(
-            <div className="footer">
-                <i className="fab fa-twitter fa-2x" style={{color:"#C67D8A"}}></i>
-                <i className="fab fa-linkedin-in fa-2x" style={{color:"#C67D8A"}}></i>
-                <i className="fas fa-envelope fa-2x" style={{color:"#C67D8A"}}></i>
-                <i className="fab fa-github fa-2x" style={{color:"#C67D8A"}}></i>
-            </div>
-        )
-    }
+export default class Footer extends Component {
+  render() {
+    return (
+      <div className="footer">
+        <a href="https://twitter.com/_JoyceA_">
+          <i className="fab fa-twitter fa-2x" style={{ color: "#C67D8A" }} />
+        </a>
+        <a href="https://github.com/JoyceAja">
+          <i
+            className="fab fa-linkedin-in fa-2x"
+            style={{ color: "#C67D8A" }}
+          />
+        </a>
+        <a href="mailto:ajagbe.joyce@gmail.com"> <i className="fas fa-envelope fa-2x" style={{ color: "#C67D8A" }} /></a>
+        <a href="https://github.com/JoyceAja">
+          <i className="fab fa-github fa-2x" style={{ color: "#C67D8A" }} />
+        </a>
+      </div>
+    );
+  }
 }

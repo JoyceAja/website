@@ -29,10 +29,9 @@ export default class Contact extends Component{
             <div className="contact">
                 <div className="contact-left left">
                     <div className="sub-title">Contact</div>
-                    {/* <Footer /> */}
                 </div>
                 <div className="right">
-                <form onSubmit={handleSubmit}>
+                {/* <form onSubmit={handleSubmit}>
                 <input
                 type ="text"
                 name="name"
@@ -58,7 +57,7 @@ export default class Contact extends Component{
                 <input
                 type="submit"
                 value="Submit" />
-                </form>
+                </form> */}
                 <Footer />
                 </div>
             </div>
