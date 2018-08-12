@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import Footer from '../Footer/Footer';
 
 import './Contact.css'
 export default class Contact extends Component{
@@ -26,8 +27,11 @@ export default class Contact extends Component{
         const {handleInput, handleSubmit} = this
         return(
             <div className="contact">
-                <div className="sub-header">Contact</div>
-                <form onSubmit={handleSubmit}>
+                <div className="contact-left left">
+                    <div className="sub-title">Contact</div>
+                </div>
+                <div className="right">
+                {/* <form onSubmit={handleSubmit}>
                 <input
                 type ="text"
                 name="name"
@@ -53,7 +57,9 @@ export default class Contact extends Component{
                 <input
                 type="submit"
                 value="Submit" />
-                </form>
+                </form> */}
+                <Footer />
+                </div>
             </div>
         )
     }

@@ -1,13 +1,12 @@
 .nav{
     height:80px;
     float:right;
-    /* position: -webkit-sticky;
-    position: sticky;
-    top:0; */
+    /* margin-left: auto;
+    z-index: -1; */
 }
 
 nav a{
-    color: #193441;
+    /* color: #193441; */
     font-size: 16px;
     text-decoration: none;
     list-style: none;
