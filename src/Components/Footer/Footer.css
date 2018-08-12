@@ -2,7 +2,10 @@
     /* height: 80vh; */
     /* background-color: white; */
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
+    height: 40vh;
+    margin: auto 50px auto 25px;
     /* flex-direction: column; */
     /* position: fixed; */
     /* z-index: 500; */

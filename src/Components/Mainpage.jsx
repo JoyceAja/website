@@ -49,8 +49,7 @@ export default class Mainpage extends Component{
                 <About />
                 <Project />
                 <Skills />
-                <Contact />
-                
+                <Contact />      
             </div>
         )
     }

@@ -1,11 +1,37 @@
 .contact{
-    height: 80vh;
-    background-color: white;
+    height: 70vh;
+    background-color: #193441;
+}
+.contact-content{
+    margin: 40px auto 0 auto;
+    width:600px;
+}
+.button{
+    width:200px;
+    margin: 20px auto 60px auto;
+    border:2px solid #C67D8A;
+    border-radius: 5px;
+    background-color: #193441;
+    color:#C67D8A;
+    padding: 10px;
+    font-size:16px;
+}
+.button:hover{
+    background-color: #C67D8A;
+    color: #193441;
+}
+.left-align{
+    margin-left: auto;
+}
+.contact input[type=text], .contact textarea{
+    background-color: #193441;
+    border-color: #C67D8A;
+    color:#75A5AF;
 }
 .contact input[type=text]{
     margin:10px;
     width:500px;
-    padding: 15px;
+    padding: 12px;
     border-radius: 5px;
     font-size: 16px;
 }
@@ -13,33 +39,36 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 50px;
+    padding-top: 80px;
 }
-.contact input[type=submit]{
-    width: 200px;
-    background-color: #193441;
-    border-radius: 5px;
-    padding: 15px;
-    font-size: 16px;
-    margin-top: 10px;
-    color: #6196AD;
+.center{
+    margin:120px auto 0 auto;
 }
-.contact input[type=submit]:hover{
-    color:#C67D8A;
+.contact-container{
+    height:100vh;
+    width: 100%;
+    background-image: url('../Image/thanks2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center -180px;
 }
 .contact textarea{
     width:500px;
     height: 100px;
     font-size: 16px;
     border-radius: 5px;
-    padding: 15px;
+    padding: 12px;
     margin:10px;
-    border:2px;
-    border-style: inset;
-}
+    border:2px inset #C67D8A;
+} 
 .contact-left{
-    background-color: #193441;
-    height: 80vh;
-    line-height: 60vh;
-    /* color:white; */
+    display: flex;
+    height: 70vh; 
+}
+.form{
+    padding-top: 50px;
 }
