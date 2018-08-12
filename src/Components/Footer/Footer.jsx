@@ -8,15 +8,21 @@ export default class Footer extends Component {
         <a href="https://twitter.com/_JoyceA_">
           <i className="fab fa-twitter fa-2x" style={{ color: "#C67D8A" }} />
         </a>
-        <a href="https://github.com/JoyceAja">
+        <a href="https://www.linkedin.com/in/joyce-ajagbe-43794a84/">
           <i
             className="fab fa-linkedin-in fa-2x"
             style={{ color: "#C67D8A" }}
           />
         </a>
-        <a href="mailto:ajagbe.joyce@gmail.com"> <i className="fas fa-envelope fa-2x" style={{ color: "#C67D8A" }} /></a>
         <a href="https://github.com/JoyceAja">
           <i className="fab fa-github fa-2x" style={{ color: "#C67D8A" }} />
+        </a>
+        <a href="mailto:ajagbe.joyce@gmail.com">
+          {" "}
+          <i className="fas fa-envelope fa-2x" style={{ color: "#C67D8A" }} />
+        </a>
+        <a>
+          <i className="fas fa-file-alt fa-2x" style={{ color: "#C67D8A" }}/>
         </a>
       </div>
     );
