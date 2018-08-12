@@ -34,6 +34,9 @@
     -webkit-filter: grayscale(10%); 
     filter: grayscale(10%);
 }
+.space{
+    margin-right:5px;
+}
 /* .profile-pic{
     width:300px;
 } */

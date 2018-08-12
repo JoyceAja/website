@@ -6,7 +6,7 @@ import "./Navbar.css";
 export default class Navbar extends Component {
   render() {
     return (
-      <div>
+      <div className="nav-body">
                 <nav className="nav">
                   <ul>
                     <li>
