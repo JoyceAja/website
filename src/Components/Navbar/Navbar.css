@@ -13,9 +13,10 @@ nav a{
     -webkit-transition: all 0.5s ease;
 }
 
-a:hover{
+nav a:hover{
     color: #C67D8A;
 }
+
 nav ul{
     display: flex;
     margin: 0;

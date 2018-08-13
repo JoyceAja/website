@@ -28,6 +28,7 @@
 
 .project-description{
   color: white;
+  line-height: 20px;
 }
 .project-name{
   font-family: Moon-light;
@@ -55,6 +56,10 @@
   padding: 10px;
   font-size:16px;
 }
+a{
+  text-decoration: none;
+}
+
 .project1{
   background-image: url('../Image/football.png');
   background-position: center;
@@ -91,5 +96,5 @@
   position: absolute;
   z-index: 2;
   height:90vh;
-  margin: 160px 50px;
+  margin: 160px 60px;
 }

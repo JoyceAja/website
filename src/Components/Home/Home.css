@@ -19,7 +19,9 @@
   align-items: flex-start;
 }
 .header-home{
-    padding-bottom: 5px
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: row;
 }
 .home-content {
     transform: rotate(-21deg);
@@ -34,9 +36,8 @@
     -webkit-filter: grayscale(10%); 
     filter: grayscale(10%);
 }
-.space{
-    margin-right:5px;
+.row{
+    display: flex;
+    flex-direction: row;
+    margin-left:40px;
 }
-/* .profile-pic{
-    width:300px;
-} */

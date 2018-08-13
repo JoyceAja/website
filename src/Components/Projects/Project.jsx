@@ -56,8 +56,8 @@ export default class Projects extends Component {
             <div className={image1 ? "show box" : "none"}>
               <div className="project-name">GameOn</div>
               <div className="project-description">
-                A pick up gaming web applications with gamified point reward
-                system to encourge friendly competition between friends
+                Compete with friends using this pick-up game app with gamified features. 
+                Built using JavaScript, ReactJS, CSS3, NodeJS, PostgreSQL.
               </div>
               <a href="https://github.com/alejo4373/GameOn">
               <div className="project-link">Link</div>
@@ -70,8 +70,8 @@ export default class Projects extends Component {
               <div className="project-name">
                 <div className="name-left">Duro</div> Sonde</div>
               <div className="project-description">
-                A pick up gaming web applications with gamified point reward
-                system to encourge friendly competition between friends
+                A data visualization of water properties collected on the Sonde product of the Company Duro UAS.
+                Built using JavaScript, ReactJS, D3, CSS3, NodeJS, PostgreSQL.
               </div>
               <a href="https://github.com/JoyceAja/Duro-Sonde">
               <div className="project-link">Link</div>
@@ -84,8 +84,8 @@ export default class Projects extends Component {
               <div className="project-name">
                 <div className="name-left">Youth</div> Connection</div>
               <div className="project-description">
-                A pick up gaming web applications with gamified point reward
-                system to encourge friendly competition between friends
+              A web application that connects New York City youth with job and internship opportunities.
+              Built using NYC Open Data, JavaScript, ReactJS, CSS3.
               </div>
               <a href="https://github.com/susanahan/youth-connection">
               <div className="project-link">Link</div>
