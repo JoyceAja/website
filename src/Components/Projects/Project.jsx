@@ -45,38 +45,51 @@ export default class Projects extends Component {
     const { index, direction, image1,image2, image3 } = this.state;
 
     return (
-      <section className="projects">
+      <section className="projects" id="projects">
         <ProjectHeader />
         <div className="project-right right">
-          <div
+        <div
           className="project-container project1 op"
             onClick={this.handleClickProject1}
           >
           <div className={image1? "back show": "none"}></div>
             <div className={image1 ? "show box" : "none"}>
-              <div>Game on</div>
-              <div>
+              <div className="project-name">GameOn</div>
+              <div className="project-description">
                 A pick up gaming web applications with gamified point reward
                 system to encourge friendly competition between friends
               </div>
+              <a href="https://github.com/alejo4373/GameOn">
+              <div className="project-link">Link</div>
+              </a>
             </div>
           </div>
-          <div className="project-container project2" onClick={this.handleClickProject2}>
-            <div className={image2? "show" : "none"}>
-              <div>Game on</div>
-              <div>
+        <div className="project-container project2" onClick={this.handleClickProject2}>
+          <div className={image2? "back show": "none"}></div>
+            <div className={image2? "show box" : "none"}>
+              <div className="project-name">
+                <div className="name-left">Duro</div> Sonde</div>
+              <div className="project-description">
                 A pick up gaming web applications with gamified point reward
                 system to encourge friendly competition between friends
               </div>
+              <a href="https://github.com/JoyceAja/Duro-Sonde">
+              <div className="project-link">Link</div>
+              </a>
             </div>
           </div>
-          <div className="project-container project3" onClick ={this.handleClickProject3}>
-            <div className={image3 ?"show" : "none"}>
-              <div>Game on</div>
-              <div>
+        <div className="project-container project3" onClick ={this.handleClickProject3}>
+          <div className={image3? "back show": "none"}></div>
+            <div className={image3 ?"show box" : "none"}>
+              <div className="project-name">
+                <div className="name-left">Youth</div> Connection</div>
+              <div className="project-description">
                 A pick up gaming web applications with gamified point reward
                 system to encourge friendly competition between friends
               </div>
+              <a href="https://github.com/susanahan/youth-connection">
+              <div className="project-link">Link</div>
+              </a>
             </div>
           </div>
         </div>

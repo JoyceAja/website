@@ -23,13 +23,37 @@
   height:90vh;
   position: relative;
   box-shadow: inset 2px 1px lightgrey;
+  
 }
-.project-img{
-  width:600px;
-  height: auto;
+
+.project-description{
+  color: white;
 }
-.project-name, .project-description{
-  color: black
+.project-name{
+  font-family: Moon-light;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-size: 48px;
+  color: #C67D8A;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.name-left{
+  padding-right:18px;
+}
+.project-description{
+  padding-bottom: 30px;
+}
+.project-link{
+  width:100px;
+  margin: 20px auto 60px auto;
+  border:2px solid #C67D8A;
+  border-radius: 5px;
+  /* background-color: #193441; */
+  color:#C67D8A;
+  padding: 10px;
+  font-size:16px;
 }
 .project1{
   background-image: url('../Image/football.png');
@@ -43,10 +67,6 @@
   background-image: url('../Image/youth.png');
   background-position: center;
 }
-/* .project1:active{
-  opacity: 0.5;
-} */
-
 .project1, .project2, .project3{
   background-repeat: no-repeat;
   -webkit-background-size: cover;
@@ -54,29 +74,15 @@
   -o-background-size: cover;
   background-size: cover;
 }
-/* .op{
-  background-image: url('../Image/football.png'),0.6;
-}
-.no{
-  background-image: url('../Image/football.png')
-} */
 .show{
   visibility: visible
 }
 .none{
   visibility: hidden;
 }
-/* .project::after{
-  height: 90vh;
-  width: 50%;
-  position: absolute;
-  top: 0; bottom: 0; left: 0; right: 0;
-  opacity: 0.5;
-  z-index: -1;
-} */
 .back{
   height: 90vh;
-  background-color: rgba(0, 0,0, 0.7);
+  background-color: rgba(0, 0,0, 0.9);
   position: absolute;
   width: 100%;
   z-index: 1;
@@ -84,4 +90,6 @@
 .box{
   position: absolute;
   z-index: 2;
+  height:90vh;
+  margin: 160px 50px;
 }

@@ -10,7 +10,7 @@ export default class Home extends Component {
 
   render() {
     return (
-      <section className="home">
+      <section className="home" id="home">
       <div className="home-container">
         <div className="home-content">
         <div className="header header-home animated fadeInDownBig delay-6s">Joyce <span className="space">Ajagbe</span></div>

@@ -24,7 +24,7 @@ export default class Contact extends Component {
   render() {
     const { handleInput, handleSubmit } = this;
     return (
-      <div className="contact-container">
+      <div className="contact-container" id="contact">
       <div className="contact">
         <div className="contact-left left">
           <Footer />
