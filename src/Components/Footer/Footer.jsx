@@ -21,7 +21,7 @@ export default class Footer extends Component {
           {" "}
           <i className="fas fa-envelope fa-2x" style={{ color: "#C67D8A" }} />
         </a>
-        <a>
+        <a href="https://drive.google.com/file/d/1Gv2yVNkym21wTJIbArNcm87zSaLCk-yF/view" target="_blank">
           <i className="fas fa-file-alt fa-2x" style={{ color: "#C67D8A" }}/>
         </a>
       </div>

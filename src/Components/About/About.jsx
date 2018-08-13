@@ -5,28 +5,23 @@ import "./About.css";
 export default class About extends Component {
   render() {
     return (
-      <div className="about_me content">
+      <div className="about_me content" id="about">
         <div className="about-background"></div>
         <div className="sub-title">About</div>
         <div className="bio contents">
           <p className="short-bio">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas
-            sollicitudin. Curabitur ligula sapien, pulvinar a vestibulum quis,
-            facilisis vel sapien. Nunc dapibus tortor vel mi dapibus
-            sollicitudin.
+          I am a Biomedical Engineer turned Software Engineer living in New York
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas
-            sollicitudin. Curabitur ligula sapien, pulvinar a vestibulum quis,
-            facilisis vel sapien. Nunc dapibus tortor vel mi dapibus
-            sollicitudin. Aliquam in lorem sit amet leo accumsan lacinia. Sed ut
-            perspiciatis unde omnis iste natus error sit voluptatem accusantium
-            doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
-            inventore veritatis et quasi architecto beatae vitae dicta sunt
-            explicabo. Integer rutrum, orci vestibulum ullamcorper ultricies,
-            lacus quam ultricies odio, vitae placerat pede sem sit amet enim.
-            Sed ac dolor sit amet purus malesuada congue. Integer malesuada.
-            Etiam neque.
+            I recieved my bachelor in Biomedical Engineering with a minor in Bio-Devices and
+            Bio-Instrumentation on May 2017. I absolutely loved it because I got to particpate in research on really cool topics
+            like Nanotechnology and Drug Delivery. However, after working on the programming for
+            my Capstone Project I realized I particularly enjoyed programming, from the headache and fustration to the accomplished feeling when something finally
+            works. So after graduation, I made the decision to pursue software developement. So far my journey has been like a roller coaster 
+            but love for learning continues to propel me to engage in new platform and experiment with new frameworks.
+          </p>
+          <p> A huge career aspiration of mine is 
+            to improve the quality of life of people, I hope to work for an organization whose values aligns with positively impacting people.
           </p>
         </div>
       </div>

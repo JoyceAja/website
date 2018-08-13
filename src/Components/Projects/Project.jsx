@@ -45,38 +45,51 @@ export default class Projects extends Component {
     const { index, direction, image1,image2, image3 } = this.state;
 
     return (
-      <section className="projects">
+      <section className="projects" id="projects">
         <ProjectHeader />
         <div className="project-right right">
-          <div
-          className={image1? "project-container project1 op": "project-container project1 no"}
+        <div
+          className="project-container project1 op"
             onClick={this.handleClickProject1}
           >
-          <div ></div>
-            <div className={image1 ? "show" : "none"}>
-              <div>Game on</div>
-              <div>
-                A pick up gaming web applications with gamified point reward
-                system to encourge friendly competition between friends
+          <div className={image1? "back show": "none"}></div>
+            <div className={image1 ? "show box" : "none"}>
+              <div className="project-name">GameOn</div>
+              <div className="project-description">
+                Compete with friends using this pick-up game app with gamified features. 
+                Built using JavaScript, ReactJS, CSS3, NodeJS, PostgreSQL.
               </div>
+              <a href="https://github.com/alejo4373/GameOn">
+              <div className="project-link">Link</div>
+              </a>
             </div>
           </div>
-          <div className="project-container project2" onClick={this.handleClickProject2}>
-            <div className={image2? "show" : "none"}>
-              <div>Game on</div>
-              <div>
-                A pick up gaming web applications with gamified point reward
-                system to encourge friendly competition between friends
+        <div className="project-container project2" onClick={this.handleClickProject2}>
+          <div className={image2? "back show": "none"}></div>
+            <div className={image2? "show box" : "none"}>
+              <div className="project-name">
+                <div className="name-left">Duro</div> Sonde</div>
+              <div className="project-description">
+                A data visualization of water properties collected on the Sonde product of the Company Duro UAS.
+                Built using JavaScript, ReactJS, D3, CSS3, NodeJS, PostgreSQL.
               </div>
+              <a href="https://github.com/JoyceAja/Duro-Sonde">
+              <div className="project-link">Link</div>
+              </a>
             </div>
           </div>
-          <div className="project-container project3" onClick ={this.handleClickProject3}>
-            <div className={image3 ?"show" : "none"}>
-              <div>Game on</div>
-              <div>
-                A pick up gaming web applications with gamified point reward
-                system to encourge friendly competition between friends
+        <div className="project-container project3" onClick ={this.handleClickProject3}>
+          <div className={image3? "back show": "none"}></div>
+            <div className={image3 ?"show box" : "none"}>
+              <div className="project-name">
+                <div className="name-left">Youth</div> Connection</div>
+              <div className="project-description">
+              A web application that connects New York City youth with job and internship opportunities.
+              Built using NYC Open Data, JavaScript, ReactJS, CSS3.
               </div>
+              <a href="https://github.com/susanahan/youth-connection">
+              <div className="project-link">Link</div>
+              </a>
             </div>
           </div>
         </div>
