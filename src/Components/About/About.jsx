@@ -10,7 +10,8 @@ export default class About extends Component {
         <div className="sub-title">About</div>
         <div className="bio contents">
           <p className="short-bio">
-          I am a Biomedical Engineer turned Software Engineer living in New York
+          I am a Software Engineer currently based in New York. My area of focus is web development and I am committed to
+          creating positive user experiences.
           </p>
           <p>
             I recieved my bachelor in Biomedical Engineering with a minor in Bio-Devices and
