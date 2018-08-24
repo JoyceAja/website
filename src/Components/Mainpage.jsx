@@ -18,6 +18,7 @@ const debounce = (func, wait) => {
     }
   }
 
+
 export default class Mainpage extends Component{
     constructor(){
         super()
@@ -36,16 +37,24 @@ export default class Mainpage extends Component{
     
       handleScroll = () => {
         const scrollPositionY = +window.scrollY
+        console.log('scroll', scrollPositionY)
         return this.setState({ scrollPositionY })
       }
+
+      onScroll = () => {
+        window.scrollTo(0,1076)
+    }
     render(){
-        const isScrolling = !!this.state.scrollPositionY        
+        const isScrolling = !!this.state.scrollPositionY       
+        console.log('let me know what you think', this.state.scrollPostionY === 1076, this.state.scrollPositionY, typeof this.state.scrollPositionY, 1076 === 1076)
+        if(this.state.scrollPostionY === 1076){
+            window.removeEventListener('scroll', this.onScroll())
+            console.log('I am at least getting here')
+        }
         return(
             <div>
                 <div className={isScrolling? "fixed": ""}><Navbar/></div>
                 <Home />
-                {/* <Footer /> */}
-                {/* <Navdot /> */}
                 <About />
                 <Project />
                 <Skills />
