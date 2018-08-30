@@ -68,7 +68,7 @@ export default class Projects extends Component {
                 features. Built using JavaScript, ReactJS, CSS3, NodeJS,
                 PostgreSQL.
               </div>
-              <a href="https://github.com/alejo4373/GameOn">
+              <a href="https://github.com/JoyceAja/GameOn">
                 <div className="project-link">Link</div>
               </a>
             </div>
@@ -118,7 +118,7 @@ export default class Projects extends Component {
                 internship opportunities. Built using NYC Open Data, JavaScript,
                 ReactJS, CSS3.
               </div>
-              <a href="https://github.com/susanahan/youth-connection">
+              <a href="https://github.com/JoyceAja/youth-connection">
                 <div className="project-link">Link</div>
               </a>
             </div>
