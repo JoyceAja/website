@@ -25,6 +25,7 @@ export default class Mainpage extends Component{
 
         this.state = {
             scrollPositionY: 0,
+            fixedScroll: false
           }
     }
     componentDidMount() {
@@ -37,7 +38,6 @@ export default class Mainpage extends Component{
     
       handleScroll = () => {
         const scrollPositionY = +window.scrollY
-        console.log('scroll', scrollPositionY)
         return this.setState({ scrollPositionY })
       }
 
@@ -46,13 +46,13 @@ export default class Mainpage extends Component{
     }
     render(){
         const isScrolling = !!this.state.scrollPositionY       
-        console.log('let me know what you think', this.state.scrollPostionY === 1076, this.state.scrollPositionY, typeof this.state.scrollPositionY, 1076 === 1076)
-        if(this.state.scrollPostionY === 1076){
-            window.removeEventListener('scroll', this.onScroll())
-            console.log('I am at least getting here')
-        }
+        // console.log('let me know what you think', this.state.scrollPostionY === 1076, this.state.scrollPositionY, typeof this.state.scrollPositionY, 1076 === 1076)
+        // if(this.state.scrollPostionY === 1076){
+        //     window.removeEventListener('scroll', this.onScroll())
+        //     console.log('I am at least getting here')
+        // }
         return(
-            <div>
+            <div className="page-container">
                 <div className={isScrolling? "fixed": ""}><Navbar/></div>
                 <Home />
                 <About />
