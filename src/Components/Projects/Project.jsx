@@ -3,6 +3,7 @@ import "./Project.css";
 import Gameon from "../Image/gameon.png";
 import Duro from "../Image/Duro.png";
 import Youth from "../Image/youth-con.png";
+import arrow from "../Image/slim-down.png";
 
 import ProjectHeader from "./Project_Header";
 
@@ -52,7 +53,13 @@ export default class Projects extends Component {
             className="project-container project1 op"
             onClick={this.handleClickProject1}
           >
-          {/* <i class="fa fa-long-arrow-alt-down fa-3x " style={{ color: "#C67D8A" }}></i> */}
+            {/* <div className={image1 ? "none scr" : "show scr"}>
+              <div className="scroll-name">Scroll</div>
+              <div className="scroll-img">
+                <img src={arrow} alt="scroll" />
+              </div>
+            </div> */}
+
             <div className={image1 ? "back show" : "none"} />
             <div className={image1 ? "show box" : "none"}>
               <div className="project-name">GameOn</div>
@@ -70,6 +77,12 @@ export default class Projects extends Component {
             className="project-container project2"
             onClick={this.handleClickProject2}
           >
+          {/* <div className={image1 ? "none scr" : "show scr"}>
+              <div className="scroll-name">Scroll</div>
+              <div className="scroll-img">
+                <img src={arrow} alt="scroll" />
+              </div>
+            </div> */}
             <div className={image2 ? "back show" : "none"} />
             <div className={image2 ? "show box" : "none"}>
               <div className="project-name">
@@ -89,6 +102,12 @@ export default class Projects extends Component {
             className="project-container project3"
             onClick={this.handleClickProject3}
           >
+          {/* <div className={image1 ? "none scr" : "show scr"}>
+              <div className="scroll-name">Scroll</div>
+              <div className="scroll-img">
+                <img src={arrow} alt="scroll" />
+              </div>
+            </div> */}
             <div className={image3 ? "back show" : "none"} />
             <div className={image3 ? "show box" : "none"}>
               <div className="project-name">
