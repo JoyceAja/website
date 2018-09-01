@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./Home.css";
 import profilePic from "../Image/profile_pic.png";
-import Navdot from '../Navdot/Dots.jsx';
 // import Nav
 export default class Home extends Component {
   constructor() {
@@ -20,8 +19,6 @@ export default class Home extends Component {
         <div className="profile-pic animated fadeInDownBig delay-3s">
           <img className="pic " src={profilePic} alt="img"/>
         </div>
-        {/* <Navdot />
-        </div> */}
       </div>
       </section>
     );
