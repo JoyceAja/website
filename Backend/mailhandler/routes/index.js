@@ -14,7 +14,18 @@ router.post('/send', function(req, res, next) {
     subject: 'Message from contact form',
     text: content
   }
-  res.render('index', { title: 'Express' });
+  
+  transporter.sendMail(mail, (err,data) => {
+    if(err){
+      res.json({
+        msg:'fail'
+      })
+    }else{
+      res.json({
+        msg:'success'
+      })
+    }
+  })
 });
 
 module.exports = router;
