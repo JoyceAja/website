@@ -53,13 +53,6 @@ export default class Projects extends Component {
             className="project-container project1 op"
             onClick={this.handleClickProject1}
           >
-            {/* <div className={image1 ? "none scr" : "show scr"}>
-              <div className="scroll-name">Scroll</div>
-              <div className="scroll-img">
-                <img src={arrow} alt="scroll" />
-              </div>
-            </div> */}
-
             <div className={image1 ? "back show" : "none"} />
             <div className={image1 ? "show box" : "none"}>
               <div className="project-name">GameOn</div>
@@ -77,12 +70,6 @@ export default class Projects extends Component {
             className="project-container project2"
             onClick={this.handleClickProject2}
           >
-          {/* <div className={image1 ? "none scr" : "show scr"}>
-              <div className="scroll-name">Scroll</div>
-              <div className="scroll-img">
-                <img src={arrow} alt="scroll" />
-              </div>
-            </div> */}
             <div className={image2 ? "back show" : "none"} />
             <div className={image2 ? "show box" : "none"}>
               <div className="project-name">
@@ -102,12 +89,6 @@ export default class Projects extends Component {
             className="project-container project3"
             onClick={this.handleClickProject3}
           >
-          {/* <div className={image1 ? "none scr" : "show scr"}>
-              <div className="scroll-name">Scroll</div>
-              <div className="scroll-img">
-                <img src={arrow} alt="scroll" />
-              </div>
-            </div> */}
             <div className={image3 ? "back show" : "none"} />
             <div className={image3 ? "show box" : "none"}>
               <div className="project-name">
@@ -127,40 +108,4 @@ export default class Projects extends Component {
       </section>
     );
   }
-
-  // return (
-  // <div className="projects">
-  //{/* <div className="project-title header">Projects</div> */}
-  // <div className="project-slide">
-  //{
-  /* <img className="project-pic" src={Gameon} alt="gameon" />
-          <img className="project-pic" src={Duro} alt="Duro" />
-          <img className="project-pic" src={Youth} alt="Youth" /> */
-  //}
-
-  //{
-  /* <section id="slider">
-            <div className="project-box">
-            <input type="radio" name="slider" id="s1" />
-            </div>
-            <div className="project-box">
-            <input type="radio" name="slider" id="s2" defaultChecked/>
-            </div>
-            <div className="project-box">
-            <input type="radio" name="slider" id="s3" />
-            </div>
-            <div className="project-box">
-            <label htmlFor="s1" id="slide1" />
-            </div>
-            <div className="project-box">
-            <label htmlFor="s2" id="slide2" />
-            </div>
-            <div className="project-box">
-            <label htmlFor="s3" id="slide3" />
-            </div>
-          </section> */
-  //}
-  //   </div>
-  // </div>
-  // );
 }

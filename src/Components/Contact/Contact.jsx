@@ -58,6 +58,9 @@ export default class Contact extends Component {
             <div className="sub-title center">Contact</div>
           </div>
           <div className="right form">
+            {/* <div className="text-header">Lets connect</div>
+            <div className="contact-text">
+              I am open to freelance opportunities, let make something awesome</div> */}
             <form onSubmit={handleSubmit}>
               <input
                 type="text"

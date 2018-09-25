@@ -6,6 +6,15 @@
     margin: 40px auto 0 auto;
     width:600px;
 }
+
+.contact-text{
+    color: #C67D8A;
+    font-size: 24px;
+}
+.text-header{
+    color: #C67D8A;
+    font-size: 32px;
+}
 .button{
     width:200px;
     margin: 20px auto 60px auto;
@@ -39,7 +48,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 80px;
+    padding-top: 60px;
 }
 .center{
     margin:120px auto 0 auto;
