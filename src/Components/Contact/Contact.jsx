@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import Footer from "../Footer/Footer";
 
+import axios from "axios";
+
 import "./Contact.css";
 export default class Contact extends Component {
   constructor() {
@@ -32,6 +34,7 @@ export default class Contact extends Component {
       }
     }).then(response => {
       if (response.data.msg === "success") {
+        console.log('getting here')
         alert("Message Sent.");
         this.setState({
           name: "",
@@ -41,7 +44,8 @@ export default class Contact extends Component {
       } else if (response.data.msg === "fail") {
         alert("Message failed to send.");
       }
-    });
+    })
+    .catch(err => console.log(err));
   };
 
   render() {
