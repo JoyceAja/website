@@ -1,13 +1,14 @@
 {
-  "main.css": "static/css/main.3cc59fdd.css",
-  "main.css.map": "static/css/main.3cc59fdd.css.map",
-  "main.js": "static/js/main.b629a02d.js",
-  "main.js.map": "static/js/main.b629a02d.js.map",
+  "main.css": "static/css/main.1191a2fa.css",
+  "main.css.map": "static/css/main.1191a2fa.css.map",
+  "main.js": "static/js/main.e9bcd663.js",
+  "main.js.map": "static/js/main.e9bcd663.js.map",
   "static/media/Duro.png": "static/media/Duro.68c78126.png",
   "static/media/Moon2.0-Bold.otf": "static/media/Moon2.0-Bold.e1c9d28f.otf",
   "static/media/Moon2.0-Light.otf": "static/media/Moon2.0-Light.14e8e211.otf",
   "static/media/Moon2.0-Regular.otf": "static/media/Moon2.0-Regular.beaab266.otf",
   "static/media/PoiretOne-Regular.ttf": "static/media/PoiretOne-Regular.3b585e0e.ttf",
+  "static/media/Ycon.png": "static/media/Ycon.78c14a7e.png",
   "static/media/background.jpg": "static/media/background.5d486177.jpg",
   "static/media/css.png": "static/media/css.c49e7d14.png",
   "static/media/d3.png": "static/media/d3.036ef036.png",
@@ -21,6 +22,5 @@
   "static/media/react.png": "static/media/react.580ffd26.png",
   "static/media/redux.png": "static/media/redux.51c63549.png",
   "static/media/thanks2.jpg": "static/media/thanks2.aaf4098c.jpg",
-  "static/media/youth-con.png": "static/media/youth-con.f0ba8664.png",
-  "static/media/youth.png": "static/media/youth.aa11cda7.png"
+  "static/media/youth-con.png": "static/media/youth-con.f0ba8664.png"
 }
